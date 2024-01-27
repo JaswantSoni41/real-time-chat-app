@@ -68,18 +68,11 @@
 }
   
   .tags {
-  font-size: var(--universal-btn-font);
-  background-color: var(--tag-color);
-  padding: 15px 50px;
-  color: var(--text-color-1);
-  border-radius: 12px;
+ 
 }
 
 .tools-used-tags {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 15px;
+  
 }
 </style>
 <h1>SRC - Online Movie Watching Website</h1>
@@ -121,8 +114,15 @@ platform.</p>
 <li>$con = mysqli_connect($hostname,$username,$password,$dbname); </li>
 </ol>
 
-<div class="tools-used-tags">
-    <span class="tags">HTML</span>
+<div style="width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 15px;">
+    <span style="
+  background-color: #858585;
+  padding: 15px 50px;
+  color: #FFFFFF;
+  border-radius: 12px;">HTML</span>
     <span class="tags">CSS</span>
     <span class="tags">JavaScript</span>
     <span class="tags">PHP</span>
