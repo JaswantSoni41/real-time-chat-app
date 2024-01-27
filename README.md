@@ -33,7 +33,7 @@ platform.</p>
 <li>$hostname = "localhost"; </li>
 <li>$username = "root"; </li>
 <li>$password = ""; </li>
-<li>$dbname = "<name_of_database>"; </li>
+<li>$dbname = "name_of_database"; </li>
 <li>$con = mysqli_connect($hostname,$username,$password,$dbname); </li>
 </ol>
 
