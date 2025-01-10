@@ -1,4 +1,4 @@
-<h1>SRC - Online Movie Watching Website</h1>
+<h1>Real Time Chat Application</h1>
 
 <h2>Project Overview</h2>
 
